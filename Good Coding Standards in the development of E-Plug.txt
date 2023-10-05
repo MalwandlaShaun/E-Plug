@@ -1,0 +1,24 @@
+Good Coding Standards in the development of E-Plug
+==================================================
+
+* Use the DRY (Don’t Repeat Yourself) principle: Automate repetitive tasks whenever necessary. Reuse components or functions. The same piece of code should not be repeated in the script.
+
+* Install Prettier to automatically format your code
+
+..................................................
+
+
+1. Testing your work while coding is a vital part of software development and should be well-planned. It requires the test cases to be prepared before the actual coding of the software begins.
+
+2. Variable Naming Conventions: The idea of variable naming while coding is simple: to create variable names that are self-explanatory and follow a consistent theme throughout the code. We will be using CamelCase to name variables. E.g. priceInCents, you know exactly what this variable holds. Also a single variable can’t be assigned various values or utilized for numerous functions.
+
+3. Avoid Deep Nesting. Too many nesting levels make code harder to read and follow.
+
+4. Don’t use lengthy functions. Ideally, a single function should carry out a single task. 
+
+5. Avoid long lines. It is easier for humans to read blocks of lines that are horizontally short and vertically long.
+
+6. Comments, Comments, Comments: Their sole purpose is to help the programmer understand the code, especially when returning to work on unfamiliar scripts in the future. Devs are human, and it is much easier to read comments describing code functions rather than scanning the code and making speculations.
+
+7. Turn Daily Backups into an instinct: Multiple events can trigger data loss – system crash, dead battery, software glitch, hardware damage, etc.
+
