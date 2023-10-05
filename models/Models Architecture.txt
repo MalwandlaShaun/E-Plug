@@ -1,0 +1,85 @@
+
+Create the following mongoose schema for the User Collection
+=====================
+Name 
+Surname
+DOB
+Role
+email
+password
+image
+address
+bio
+twitter:
+facebook:
+linkedin:
+
+
+Enrolled Collection
+=====================
+CourseID = 545d44dfss
+UserID = fdfd4f56d
+StartDate = 16252441056
+EndDate = 16252441056
+progress = 23.36
+
+Appointments Collection
+=====================
+Title
+Type 
+Date
+Description
+Location
+Link
+People
+UserID
+
+Resources Collection
+=====================
+Title
+Type 
+Description
+Link
+Author
+UserID
+CourseID
+
+Submissions Collection
+=====================
+GithubLink
+DomainLink
+Comment
+Date
+Grade
+Feedback
+UserID
+FacilitatorID
+CourseID
+TopicID
+
+Courses Collection
+=====================
+Title
+Image
+Description
+Duration
+Level
+Price
+CourseContentID
+FacilitatorID
+
+Create the following mongoose schema for the CourseContent Collection
+=====================
+Sections:[SectionId, SectionID]
+
+Create the following mongoose schema for the Section Collection
+=====================
+Title
+Topics:[TopicID, TopicID]
+
+Create the following mongoose schema for the Topic Collection
+=====================
+Title
+Lesson:[video link, transcript]
+Quiz:[{question:"",a:"",b:"",c:"",d:"",answer:a},{question:"",a:"",b:"",c:"",d:"",answer:a}]
+Project:{PDF_URL:"",checklist:[" "," "," "]}
