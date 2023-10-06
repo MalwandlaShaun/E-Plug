@@ -16,9 +16,10 @@ Good Coding Standards in the development of E-Plug
 
 4. Don’t use lengthy functions. Ideally, a single function should carry out a single task. 
 
-5. Avoid long lines. It is easier for humans to read blocks of lines that are horizontally short and vertically long.
+5. Comments, Comments, Comments: Their sole purpose is to help the programmer understand the code, especially when returning to work on unfamiliar scripts in the future. Devs are human, and it is much easier to read comments describing code functions rather than scanning the code and making speculations.
 
-6. Comments, Comments, Comments: Their sole purpose is to help the programmer understand the code, especially when returning to work on unfamiliar scripts in the future. Devs are human, and it is much easier to read comments describing code functions rather than scanning the code and making speculations.
+6. Avoid long lines. It is easier for humans to read blocks of lines that are horizontally short and vertically long.
+
 
 7. Turn Daily Backups into an instinct: Multiple events can trigger data loss – system crash, dead battery, software glitch, hardware damage, etc.
 

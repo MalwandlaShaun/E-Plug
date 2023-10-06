@@ -81,5 +81,18 @@ Create the following mongoose schema for the Topic Collection
 =====================
 Title
 Lesson:[video link, transcript]
-Quiz:[{question:"",a:"",b:"",c:"",d:"",answer:a},{question:"",a:"",b:"",c:"",d:"",answer:a}]
-Project:{PDF_URL:"",checklist:[" "," "," "]}
+Quiz:[
+	{question:"",
+	a:"",
+	b:"",
+	c:"",
+	d:"",
+	answer:a},
+	{question:"",
+	a:"",
+	b:"",
+	c:"",
+	d:"",
+	answer:a}]
+Project:{PDF_URL:"",
+		checklist:[" "," "," "]}
