@@ -34,6 +34,15 @@ const courseSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  moderatorID: {
+    type: String,
+  },
+  moderationDecision: {
+    type: String,
+  },
+  moderationComment: {
+    type: String,
+  },
 });
 
 // Create the Course model

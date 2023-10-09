@@ -42,6 +42,15 @@ const submissionSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  AssessorId: {
+    type: String,
+  },
+  AssessmentDecision: {
+    type: String,
+  },
+  AssessmentComment: {
+    type: String,
+  },
 });
 
 // Create the Submissions model

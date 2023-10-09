@@ -71,6 +71,8 @@ FacilitatorID
 Create the following mongoose schema for the CourseContent Collection
 =====================
 Sections:[SectionId, SectionID]
+Final_Project:{PDF_URL:"",
+		checklist:[" "," "," "]}
 
 Create the following mongoose schema for the Section Collection
 =====================
@@ -79,20 +81,39 @@ Topics:[TopicID, TopicID]
 
 Create the following mongoose schema for the Topic Collection
 =====================
-Title
-Lesson:[video link, transcript]
-Quiz:[
-	{question:"",
-	a:"",
-	b:"",
-	c:"",
-	d:"",
-	answer:a},
-	{question:"",
-	a:"",
-	b:"",
-	c:"",
-	d:"",
-	answer:a}]
-Project:{PDF_URL:"",
+Title:"",
+Lesson:[{
+	videoLink:"",
+	transcript:"",
+	Quiz:[
+		{question:"",
+		a:"",
+		b:"",
+		c:"",
+		d:"",
+		answer:a},
+
+		{question:"",
+		a:"",
+		b:"",
+		c:"",
+		d:"",
+		answer:a}
+	],
+	Project:{PDF_URL:"",
 		checklist:[" "," "," "]}
+	}]
+
+Create the following mongoose schema for the Groups Collection
+=====================
+Title:"",
+CreateID:"",
+MembersID:[UserID, UserID]
+
+Create the following mongoose schema for the Notifications Collection
+=====================
+Type:"",
+DateTime:"",
+Description:"",
+RecipientID:"",
+link:""

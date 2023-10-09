@@ -1,32 +1,91 @@
 const mongoose = require("mongoose");
 
-// Define the Topic schema
 const topicSchema = new mongoose.Schema({
-  title: {
+  Title: {
     type: String,
     required: true,
   },
-  lesson: {
-    videoLink: String,
-    transcript: String,
-  },
-  quiz: [
+  Lesson: [
     {
-      question: String,
-      a: String,
-      b: String,
-      c: String,
-      d: String,
-      answer: String,
+      Title: {
+        type: String,
+        required: true,
+      },
+      videoLink: {
+        type: String,
+        required: true,
+      },
+      transcript: {
+        type: String,
+      },
+      Quiz: [
+        {
+          question: {
+            type: String,
+            required: true,
+          },
+          a: {
+            type: String,
+            required: true,
+          },
+          b: {
+            type: String,
+            required: true,
+          },
+          c: {
+            type: String,
+            required: true,
+          },
+          d: {
+            type: String,
+            required: true,
+          },
+          answer: {
+            type: String,
+            required: true,
+          },
+        },
+        {
+          question: {
+            type: String,
+            required: true,
+          },
+          a: {
+            type: String,
+            required: true,
+          },
+          b: {
+            type: String,
+            required: true,
+          },
+          c: {
+            type: String,
+            required: true,
+          },
+          d: {
+            type: String,
+            required: true,
+          },
+          answer: {
+            type: String,
+            required: true,
+          },
+        },
+      ],
+      Project: {
+        PDF_URL: {
+          type: String,
+        },
+        checklist: [
+          {
+            type: String,
+          },
+        ],
+      },
     },
   ],
-  project: {
-    PDF_URL: String,
-    checklist: [String],
-  },
 });
 
-// Create the Topic model
 const Topic = mongoose.model("Topic", topicSchema);
 
 module.exports = Topic;
