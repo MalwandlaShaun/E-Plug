@@ -20,7 +20,7 @@ app.use("/api/course", courseContentRoutes);
 const connection = async () => {
   try {
     mongoose.set("strictQuery", false);
-    await mongoose.connect(process.env.CONNECTION_URI, {
+    await mongoose.connect("mongodb://localhost:27017/", {
       useNewUrlParser: true,
     });
   } catch (error) {
