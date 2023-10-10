@@ -42,13 +42,13 @@ const submissionSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  AssessorId: {
+  assessorId: {
     type: String,
   },
-  AssessmentDecision: {
+  assessmentDecision: {
     type: String,
   },
-  AssessmentComment: {
+  assessmentComment: {
     type: String,
   },
 });

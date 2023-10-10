@@ -1,4 +1,4 @@
-PROPOSED//// 
+PROPOSED//// version 1.0.01
 Good Coding Standards in the development of E-Plug
 ==================================================
 
@@ -23,4 +23,6 @@ Good Coding Standards in the development of E-Plug
 
 
 7. Turn Daily Backups into an instinct: Multiple events can trigger data loss – system crash, dead battery, software glitch, hardware damage, etc.
+
+8. Console Logs and error messages must be descriptive: we must know in which file the message is being produced, on which line of that file and then content of message. Try to make errors as clear as possible about what is wrong. 
 

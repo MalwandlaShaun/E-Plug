@@ -1,20 +1,20 @@
 const mongoose = require("mongoose");
 
 const notificationSchema = new mongoose.Schema({
-  Type: {
+  type: {
     type: String,
     required: true,
   },
-  DateTime: {
+  dateTime: {
     type: Date,
     default: Date.now,
     required: true,
   },
-  Description: {
+  description: {
     type: String,
     required: true,
   },
-  RecipientID: {
+  recipientID: {
     type: String,
     required: true,
   },

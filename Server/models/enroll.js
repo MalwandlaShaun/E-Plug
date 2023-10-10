@@ -2,19 +2,19 @@ const mongoose = require("mongoose");
 
 // Define the Enrolled schema
 const enrolledSchema = new mongoose.Schema({
-  CourseID: {
+  courseID: {
     type: String,
     required: true,
   },
-  UserID: {
+  userID: {
     type: String,
     required: true,
   },
-  StartDate: {
+  startDate: {
     type: Date,
     required: true,
   },
-  EndDate: {
+  endDate: {
     type: Date,
     required: true,
   },

@@ -1,13 +1,13 @@
 const mongoose = require("mongoose");
 
 const topicSchema = new mongoose.Schema({
-  Title: {
+  title: {
     type: String,
     required: true,
   },
-  Lesson: [
+  lesson: [
     {
-      Title: {
+      title: {
         type: String,
         required: true,
       },
@@ -18,7 +18,7 @@ const topicSchema = new mongoose.Schema({
       transcript: {
         type: String,
       },
-      Quiz: [
+      quiz: [
         {
           question: {
             type: String,
@@ -72,8 +72,8 @@ const topicSchema = new mongoose.Schema({
           },
         },
       ],
-      Project: {
-        PDF_URL: {
+      project: {
+        pdf_url: {
           type: String,
         },
         checklist: [
