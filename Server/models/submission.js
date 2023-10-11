@@ -51,6 +51,15 @@ const submissionSchema = new mongoose.Schema({
   assessmentComment: {
     type: String,
   },
+  moderatorId: {
+    type: String,
+  },
+  moderationDecision: {
+    type: String,
+  },
+  moderationComment: {
+    type: String,
+  },
 });
 
 // Create the Submissions model
