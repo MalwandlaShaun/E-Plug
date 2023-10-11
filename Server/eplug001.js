@@ -7,7 +7,6 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 const https = require("https");
 const jwt = require("jsonwebtoken");
-const User = require("../models/user.model");
 const app = express();
 app.use(cors());
 app.use(express.json());
