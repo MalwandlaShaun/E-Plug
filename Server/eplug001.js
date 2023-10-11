@@ -19,6 +19,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/eplug");
 
 app.listen(8080, function () {
   console.log(
-    "server started...\nClick the url to gain access: http://10.255.66.152:8080/"
+    "server started...\nClick the url to gain access: http://localhost:8080/"
   );
 });
