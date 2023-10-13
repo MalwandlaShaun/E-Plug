@@ -15,6 +15,7 @@ app.use(morgan("tiny"));
 mongoose.connect("mongodb://127.0.0.1:27017/eplug");
 
 //Routes for user authentication and authorization using JWT tokens
+const messaging = require("./routes/messages.routes");
 
 app.listen(8080, function () {
   console.log(

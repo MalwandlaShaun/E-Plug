@@ -26,10 +26,12 @@ const appointmentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  people: {
-    type: String,
-    required: true,
-  },
+  people: [
+    {
+      type: String,
+      required: true,
+    },
+  ],
   userId: {
     type: String,
     required: true,
